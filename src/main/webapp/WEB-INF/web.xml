@@ -36,7 +36,7 @@
   </servlet>
   <servlet-mapping>
   	<servlet-name>StartServlet</servlet-name>
-  	<url-pattern>/StartServlet</url-pattern>
+  	<url-pattern>/</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
   	<servlet-name>AddServlet</servlet-name>
