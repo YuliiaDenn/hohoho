@@ -8,7 +8,7 @@
 <meta charset="UTF-8">
 <title>Notepad!</title>
 </head>
-<body style="background-color: green">
+<body style="background-color: blue">
 	<h2>Notepad!</h2>
 
 	<form action="/webNotebook/AddServlet">
