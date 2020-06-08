@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>StartServlet</servlet-name>
+  	<display-name>StartServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.StartServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddServlet</servlet-name>
+  	<display-name>AddServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.AddServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ListServlet</servlet-name>
+  	<display-name>ListServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.ListServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ListByNameServlet</servlet-name>
+  	<display-name>ListByNameServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.ListByNameServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ListBySurnameServlet</servlet-name>
+  	<display-name>ListBySurnameServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.ListBySurnameServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>StartServlet</servlet-name>
+  	<url-pattern>/StartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddServlet</servlet-name>
+  	<url-pattern>/AddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ListServlet</servlet-name>
+  	<url-pattern>/ListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ListByNameServlet</servlet-name>
+  	<url-pattern>/ListByNameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ListBySurnameServlet</servlet-name>
+  	<url-pattern>/ListBySurnameServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
